@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    color: #fff;
+    background: #262626;
+  }
+
+  html,
+  body {
+    @apply overflow-x-hidden;
+  }
+
+  body {
+    @apply font-montserrat;
+    background-color: #F5F5F5;
+    color: #262626;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #0a0a0a;
+  }
+
+  .scrolled {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    transition: background-color 200ms linear;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+  .text-border-top::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 3rem;
+    border-bottom: 3px solid #262626;
+    z-index: 0;
+    margin-top: -1.5rem;
+  }
+
+  .list-text::before {
+    background-color: #262626;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 1.5rem;
+    margin-right: 1rem;
+  }
+}

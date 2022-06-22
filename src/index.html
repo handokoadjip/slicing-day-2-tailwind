@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta HTML -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Behance | Simplā</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:image" content="" />
+    <link rel="canonical" href="#" />
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:creator" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:domain" content="" />
+
+    <!-- Theme -->
+    <link rel="icon" href="#" />
+    <link rel="apple-touch-icon" sizes="152x152" href="#" />
+    <link rel="icon" type="image/png" sizes="32x32" href="#" />
+    <link rel="icon" type="image/png" sizes="16x16" href="#" />
+    <link rel="manifest" href="#" />
+    <link rel="mask-icon" href="#" color="" />
+    <meta name="msapplication-TileColor" content="" />
+    <meta name="theme-color" content="" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom Style -->
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--------------------------------------------- 
+      Header
+    ---------------------------------------------->
+    <header class="flex items-center w-screen justify-center">
+      <!--------------------------------------------- 
+        Navbar
+      ---------------------------------------------->
+      <nav class="fixed top-0 z-50 w-screen" id="nav">
+        <div
+          class="container mx-auto flex items-center justify-between p-8 font-montserrat lg:px-3 lg:py-4"
+        >
+          <a class="font-karla text-4xl font-black tracking-[-3px]" href="#"
+            >Simplā</a
+          >
+          <div>
+            <button
+              class="relative z-50 flex items-center"
+              id="toggle-menu-button"
+            >
+              <span class="sr-only">Toggle Menu</span>
+              <div
+                class="flex h-5 flex-col items-end justify-between"
+                id="open"
+              >
+                <span class="block h-0.5 w-7 rounded-full bg-[#262626]"></span>
+                <span class="block h-0.5 w-7 rounded-full bg-[#262626]"></span>
+                <span class="block h-0.5 w-7 rounded-full bg-[#262626]"></span>
+              </div>
+              <div
+                class="flex hidden h-7 flex-col items-end justify-between"
+                id="close"
+              >
+                <span
+                  class="block h-0.5 w-8 origin-left translate-y-0.5 rotate-45 transform rounded-full bg-gray-300"
+                ></span>
+                <span
+                  class="block h-0.5 w-8 origin-left -translate-y-0.5 -rotate-45 transform rounded-full bg-gray-300"
+                ></span>
+              </div>
+            </button>
+            <div
+              class="fixed top-0 left-0 z-40 flex hidden h-screen w-screen flex-col items-center justify-center bg-white text-right text-3xl"
+              id="toggle-menu"
+            >
+              <ul class="flex flex-col gap-y-7">
+                <li>
+                  <a
+                    href="#"
+                    class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
+                    >work</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
+                    >home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
+                    >about</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--------------------------------------------- 
+        Navbar
+      ---------------------------------------------->
+
+      <!--------------------------------------------- 
+        Section Header
+      ---------------------------------------------->
+      <section class="mb-9 w-screen px-9">
+        <div class="flex h-[70vh] flex-wrap px-4">
+          <div class="lg:w-3/4">
+            <div class="flex h-full items-end">
+              <div class="w-full">
+                <h1 class="mp-0 text-border-top text-3xl">
+                  We help architects, interior designer and building answer to
+                  transform, renovate and create amazing spaces, Simpla.
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/4">
+            <div class="flex h-full items-end">
+              <a href="#">
+                <i
+                  class="fas fa-arrow-down w-full text-end text-3xl text-[rgba(0,0,0,.5)]"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------------- 
+        Section Header
+      ---------------------------------------------->
+    </header>
+    <!--------------------------------------------- 
+      Header
+    ---------------------------------------------->
+
+    <!--------------------------------------------- 
+      Section Jumbotron
+    ---------------------------------------------->
+    <section class="my-5 w-screen py-5">
+      <div class="mx-auto max-w-full">
+        <div
+          class="mb-5 h-screen bg-[url('/src/image/img-1.jpg')] bg-cover bg-center px-4 lg:mb-0 lg:w-full"
+        ></div>
+      </div>
+    </section>
+    <!--------------------------------------------- 
+      Section Jumbotron
+    ---------------------------------------------->
+
+    <!--------------------------------------------- 
+      Section Renovation
+    ---------------------------------------------->
+    <section class="my-5 w-screen py-5 px-9">
+      <div class="mx-auto max-w-full py-20">
+        <div class="flex flex-wrap lg:px-4">
+          <div class="pb-mb-16 mb-16 lg:mb-0 lg:w-3/5 lg:pb-0">
+            <div class="wrapper">
+              <div class="pr-0 lg:pr-12">
+                <h2 class="text-border-top mb-10 text-4xl font-bold">
+                  Renovation made Simpla
+                </h2>
+                <p class="mb-4 text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  facere delectus provident sit quod quos expedita suscipit
+                  magni debitis ipsam.
+                </p>
+                <p class="text-xl">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos
+                  dignissimos vitae ipsa quod. Eius accusamus corrupti quos
+                  ducimus id, molestiae minima ut quia cum, commodi voluptatum
+                  hic quae perferendis modi ipsam omnis sed distinctio atque
+                  unde facere voluptatibus excepturi adipisci.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-2/5">
+            <div class="wrapper">
+              <div class="pr-0 lg:pr-12">
+                <h2 class="text-border-top mb-10 text-4xl font-bold">
+                  Areas of expertise
+                </h2>
+                <p class="list-text mb-3 text-xl">Interior finishing</p>
+                <p class="list-text mb-3 text-xl">Glass finishing</p>
+                <p class="list-text mb-3 text-xl">Lighting</p>
+                <p class="list-text mb-3 text-xl">Financial audit</p>
+                <p class="list-text mb-3 text-xl">Design & application</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------------- 
+      Section Renovation
+    ---------------------------------------------->
+
+    <!--------------------------------------------- 
+      Section Turn Key
+    ---------------------------------------------->
+    <section class="my-5 w-screen bg-[#E3E3E3] py-5 px-9">
+      <div class="mx-auto max-w-full py-20">
+        <div class="flex flex-wrap lg:px-4">
+          <div class="pb-mb-16 mb-16 lg:mb-0 lg:w-3/5 lg:pb-0">
+            <div class="wrapper">
+              <div class="pr-0 lg:pr-12">
+                <h2 class="text-border-top mb-10 text-4xl font-bold">
+                  Turn-key solutions
+                </h2>
+                <p class="mb-4 text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  facere delectus provident sit quod quos expedita suscipit
+                  magni debitis ipsam.
+                </p>
+                <p class="mb-4 text-xl">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos
+                  dignissimos vitae ipsa quod. Eius accusamus corrupti quos
+                  ducimus id, molestiae minima ut quia cum, commodi voluptatum
+                  hic quae perferendis modi ipsam omnis sed distinctio atque
+                  unde facere voluptatibus excepturi adipisci.
+                </p>
+                <p class="text-xl">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Minus eveniet, ad voluptates vero tempore facilis eos harum
+                  dolorem quae aliquam fugit saepe labore placeat cum accusamus.
+                  Repudiandae odit qui recusandae enim quam, voluptate, porro
+                  quod optio ratione animi fugiat, cumque mollitia autem neque
+                  dicta. Voluptatum commodi officiis temporibus? Natus,
+                  possimus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-2/5">
+            <div class="wrapper">
+              <div class="pr-0 lg:pr-12">
+                <h2 class="text-border-top mb-10 text-4xl font-bold">
+                  Instalation
+                </h2>
+                <p class="list-text mb-3 text-xl">Easy and fast</p>
+                <p class="list-text mb-3 text-xl">Noise free</p>
+                <p class="list-text mb-3 text-xl">Dust free</p>
+                <p class="list-text mb-3 text-xl">Lorem</p>
+                <p class="list-text mb-3 text-xl">Flexible</p>
+                <p class="list-text mb-3 text-xl">dolor sit amet</p>
+                <p class="list-text mb-3 text-xl">Lightweight & thin</p>
+                <p class="list-text mb-3 text-xl">Fast repair & reposition</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------------- 
+      Section Turn Key
+    ---------------------------------------------->
+
+    <!--------------------------------------------- 
+      Section Address
+    ---------------------------------------------->
+    <section class="my-5 w-screen py-5 px-9">
+      <div class="mx-auto max-w-full py-20">
+        <div class="flex flex-wrap lg:px-4">
+          <div class="lg:w-3/4">
+            <div class="wrapper">
+              <div class="pr-0 lg:pr-12">
+                <h2 class="text-border-top mb-5 text-4xl font-bold">
+                  Simpla SA
+                </h2>
+                <div class="address mb-5">
+                  <p class="mb-0 text-xl">Akshya Nagar</p>
+                  <p class="mb-0 text-xl">1st Block 1st Cross</p>
+                  <p class="mb-0 text-xl">Rammurthy nagar, Bangalore-560016</p>
+                </div>
+                <div class="contact">
+                  <p class="mb-0 text-lg text-[rgba(0,0,0,.5)]">
+                    test@example.com
+                  </p>
+                  <p class="text-xl">+62 896 5057 4913</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/4">
+            <div class="wrapper flex h-full items-end">
+              <a href="#">
+                <i
+                  class="fas fa-arrow-up w-full text-end text-3xl text-[rgba(0,0,0,.5)]"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------------- 
+      Section Address
+    ---------------------------------------------->
+
+    <!--------------------------------------------- 
+      Section Maps
+    ---------------------------------------------->
+    <section class="my-5 w-screen py-5">
+      <div class="mx-auto max-w-full">
+        <div
+          class="mb-5 h-[70vh] bg-[url('/src/image/maps.png')] bg-cover bg-center px-4 lg:mb-0 lg:w-full"
+        ></div>
+      </div>
+    </section>
+    <!--------------------------------------------- 
+      Section Maps
+    ---------------------------------------------->
+
+    <!--------------------------------------------- 
+      Footer
+    ---------------------------------------------->
+    <footer class="pb-5 px-20">
+      <div class="mx-auto max-w-full">
+        <div class="flex h-[30vh] flex-wrap items-center py-5">
+          <div class="pr-4 pl-4 lg:w-full">
+            <div class="wrapper">
+              <div
+                class="block text-center lg:flex lg:items-center lg:justify-between"
+              >
+                <ul class="mp-0 inline uppercase">
+                  <li class="inline">
+                    <a
+                      class="text-xs font-bold inline-block py-2 px-4 no-underline lg:inline"
+                      href="#"
+                      >content</a
+                    >
+                  </li>
+                  <li class="inline">
+                    <a
+                      class="text-xs font-bold inline-block py-2 px-4 no-underline lg:inline"
+                      href="#"
+                      >conditions</a
+                    >
+                  </li>
+                </ul>
+                <div class="mb-5 lg:mb-0">
+                  <p class="mp-0">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quos, sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--------------------------------------------- 
+      Footer
+    ---------------------------------------------->
+
+    <script src="script.js"></script>
+  </body>
+</html>
